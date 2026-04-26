@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy | Neuro Trivia</title>
+    <meta name="description" content="Privacy Policy for the Neuro Trivia app.">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&family=Outfit:wght@700&display=swap');
+
+        :root {
+            --bg-color: #0f172a;
+            --text-color: #f8fafc;
+            --accent-primary: #8b5cf6;
+            --accent-secondary: #3b82f6;
+            --card-bg: rgba(30, 41, 59, 0.7);
+            --text-muted: #94a3b8;
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Inter', sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            line-height: 1.6;
+            overflow-x: hidden;
+        }
+
+        /* Animated Background */
+        .bg-glow {
+            position: fixed;
+            width: 600px;
+            height: 600px;
+            background: radial-gradient(circle, rgba(139, 92, 246, 0.08) 0%, rgba(15, 23, 42, 0) 70%);
+            top: -200px;
+            left: -200px;
+            border-radius: 50%;
+            z-index: -1;
+            animation: pulse 8s infinite alternate;
+        }
+
+        .bg-glow-2 {
+            position: fixed;
+            width: 500px;
+            height: 500px;
+            background: radial-gradient(circle, rgba(59, 130, 246, 0.08) 0%, rgba(15, 23, 42, 0) 70%);
+            bottom: -100px;
+            right: -100px;
+            border-radius: 50%;
+            z-index: -1;
+            animation: pulse 10s infinite alternate-reverse;
+        }
+
+        @keyframes pulse {
+            0% {
+                transform: scale(1);
+                opacity: 0.8;
+            }
+            100% {
+                transform: scale(1.2);
+                opacity: 1;
+            }
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        header {
+            padding: 40px 0 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+            margin-bottom: 40px;
+        }
+
+        .logo {
+            font-family: 'Outfit', sans-serif;
+            font-size: 24px;
+            font-weight: 700;
+            background: linear-gradient(135deg, var(--accent-primary), var(--accent-secondary));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            text-decoration: none;
+        }
+
+        nav a {
+            color: var(--text-color);
+            text-decoration: none;
+            margin-left: 30px;
+            font-weight: 600;
+            transition: color 0.3s;
+        }
+
+        nav a:hover {
+            color: var(--accent-primary);
+        }
+
+        .content-card {
+            background: var(--card-bg);
+            border: 1px solid rgba(255, 255, 255, 0.05);
+            padding: 50px;
+            border-radius: 20px;
+            backdrop-filter: blur(10px);
+            margin-bottom: 80px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+        }
+
+        h1 {
+            font-family: 'Outfit', sans-serif;
+            font-size: 36px;
+            margin-top: 0;
+            margin-bottom: 10px;
+        }
+
+        .last-updated {
+            color: var(--accent-secondary);
+            font-weight: 600;
+            margin-bottom: 30px;
+            display: inline-block;
+        }
+
+        h2 {
+            font-family: 'Outfit', sans-serif;
+            font-size: 24px;
+            margin-top: 40px;
+            margin-bottom: 15px;
+            color: var(--text-color);
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+            padding-bottom: 10px;
+        }
+
+        p, li {
+            color: #cbd5e1;
+            font-size: 16px;
+        }
+
+        ul {
+            padding-left: 20px;
+        }
+
+        li {
+            margin-bottom: 10px;
+        }
+
+        strong {
+            color: var(--text-color);
+        }
+
+        a.link {
+            color: var(--accent-secondary);
+            text-decoration: none;
+            transition: color 0.2s;
+        }
+
+        a.link:hover {
+            color: var(--accent-primary);
+            text-decoration: underline;
+        }
+
+        footer {
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+            padding: 40px 0;
+            text-align: center;
+            color: var(--text-muted);
+        }
+
+        @media (max-width: 768px) {
+            .content-card {
+                padding: 30px 20px;
+            }
+            h1 { font-size: 28px; }
+            h2 { font-size: 20px; }
+            nav { display: none; }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="bg-glow"></div>
+    <div class="bg-glow-2"></div>
+
+    <div class="container">
+        <header>
+            <a href="index.html" class="logo">Neuro Trivia</a>
+            <nav>
+                <a href="index.html">Home</a>
+            </nav>
+        </header>
+
+        <main class="content-card">
+            <h1>Privacy Policy</h1>
+            <span class="last-updated">Last Updated: April 26, 2026</span>
+
+            <p>Welcome to <strong>Neuro Trivia</strong>, an application developed by <strong>Soranix</strong> ("we," "us," or "our").</p>
+
+            <p>We strongly believe in your privacy. <strong>We do not intentionally collect, store, or process any personal information</strong> from our users. You can use Neuro Trivia without creating an account or providing any personal details.</p>
+
+            <h2>1. Information We Do Not Collect</h2>
+            <p>We do not ask for, collect, or store your name, email address, phone number, location, or any other personal identity information.</p>
+
+            <h2>2. Third-Party Services and Automatically Collected Data</h2>
+            <p>While we do not collect personal data directly, our App uses certain third-party services to function properly, show advertisements, and help us fix bugs. These services may automatically collect anonymous, non-personal device information:</p>
+
+            <ul>
+                <li><strong>Google AdMob:</strong> We use AdMob to display advertisements to keep the app free. AdMob may automatically collect device identifiers (such as the Advertising ID) and usage data to serve relevant ads.</li>
+                <li><strong>Firebase:</strong> We use Firebase to monitor app performance and identify crashes (bugs). Firebase may collect anonymous device information, operating system versions, and crash reports so we can fix the app if it breaks.</li>
+                <li><strong>OpenAI / Google Generative AI:</strong> We use advanced AI to power our trivia generation. The text of the trivia questions you interact with is processed by these APIs, but no personal information about you is sent to them.</li>
+            </ul>
+
+            <p>Because we use these services, you should review their privacy policies to understand how they handle this automatic, non-personal data:</p>
+            <ul>
+                <li><a href="https://policies.google.com/privacy" class="link" target="_blank" rel="noopener noreferrer">Google Privacy Policy (AdMob & Firebase)</a></li>
+                <li><a href="https://openai.com/privacy" class="link" target="_blank" rel="noopener noreferrer">OpenAI Privacy Policy</a></li>
+            </ul>
+
+            <h2>3. Local Storage</h2>
+            <p>We use local storage on your device to save your trivia scores, progress, and app preferences (like dark mode). This data stays strictly on your phone and is never sent to our servers.</p>
+
+            <h2>4. Children's Privacy</h2>
+            <p>Because our App does not collect personal information, it is safe for users of all ages. However, due to our use of third-party advertising (AdMob) and AI services, the App is intended for users who meet the minimum age requirements of those platforms (typically 13+). We do not knowingly solicit personal information from children.</p>
+
+            <h2>5. Changes to This Privacy Policy</h2>
+            <p>We may update this Privacy Policy from time to time. You are encouraged to periodically review this Privacy Policy to stay informed of updates.</p>
+
+            <h2>6. Contact Us</h2>
+            <p>If you have questions or comments about this Privacy Policy, please contact us at:<br>
+            <strong>Soranix</strong><br>
+            <a href="mailto:soranix@yahoo.com" class="link">soranix@yahoo.com</a></p>
+        </main>
+
+        <footer>
+            <p>&copy; 2026 Soranix. All rights reserved.</p>
+        </footer>
+    </div>
+</body>
+
+</html>
